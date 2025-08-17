@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    float a, b, c;
+    printf("Enter Dollar:");
+    scanf("%f", &a);
+    b = a * 48;
+    c = b / 70;
+    printf("%.3f Dollar in Pound is %.3f", a, c);
+    return 0;
+}
